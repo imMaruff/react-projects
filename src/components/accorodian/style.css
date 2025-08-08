@@ -1,0 +1,43 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.multi-selection-btn{
+    padding: 10px 20px;
+    background-color: #9ef3a6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordian {
+    width: 500px;
+    
+}
+
+.item{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #9ef3a6;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    cursor: pointer;
+}
+.question{
+    font-weight: bold;
+}
+
+.answer{
+    height: auto;
+}
